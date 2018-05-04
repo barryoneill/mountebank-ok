@@ -1,0 +1,19 @@
+{
+  "port": 8080,
+  "protocol": "http",
+  "recordRequests": true,
+  "stubs": [
+    {
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "X-Server-Name": "mountebank-ok server"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
